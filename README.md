@@ -7,7 +7,7 @@ It provides a convenient way to access campus information, communicate with diff
 ## 🌐 Live Demo
 
 **Campus Connect:**
-https://campus-connect-acv0hb51m-hiranmayikomanduri-8629s-projects.vercel.app
+https://campus-connect-m9xasq5dc-hiranmayikomanduri-8629s-projects.vercel.app
 
 ## 🐙 GitHub Repository
 
@@ -228,7 +228,7 @@ Campus Connect was developed as a hackathon project with the goal of creating a 
 ### Project Links
 
 🌐 **Live Demo:**
-https://campus-connect-acv0hb51m-hiranmayikomanduri-8629s-projects.vercel.app
+https://campus-connect-m9xasq5dc-hiranmayikomanduri-8629s-projects.vercel.app
 
 🐙 **GitHub:**
 https://github.com/Hiranmayikomanduri4/campus-connect
