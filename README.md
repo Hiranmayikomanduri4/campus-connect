@@ -17,7 +17,7 @@ https://github.com/Hiranmayikomanduri4/campus-connect
 
 Project documentation and presentation materials are available below:
 
-* 📄 **[Project Report](campus connect report.pdf)**
+* 📄 **[Project Report](campus_connect_report.pdf)**
 * 📊 **[Project Presentation](Campus_Connect_Deck.pptx)**
 
 ## 🔗 Project Links
