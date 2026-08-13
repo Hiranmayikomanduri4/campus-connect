@@ -13,6 +13,22 @@ https://campus-connect-m9xasq5dc-hiranmayikomanduri-8629s-projects.vercel.app
 
 **Source Code:**
 https://github.com/Hiranmayikomanduri4/campus-connect
+## 📚 Documentation
+
+Project documentation and presentation materials are available below:
+
+* 📄 **[Project Report](Campus_Connect_Project_Report.docx)**
+* 📊 **[Project Presentation](Campus_Connect_Presentation.pptx)**
+
+## 🔗 Project Links
+
+* 🌐 **[Live Demo](https://campus-connect-m9xasq5dc-hiranmayikomanduri-8629s-projects.vercel.app)**
+* 🐙 **[GitHub Repository](https://github.com/Hiranmayikomanduri4/campus-connect)**
+
+## 🏆 Hackathon Submission
+
+Campus Connect is developed as a smart digital campus platform to improve communication, accessibility, and interaction between students, faculty, and campus administration.
+
 
 ---
 
