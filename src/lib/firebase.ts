@@ -14,7 +14,15 @@ const defaultConfig = {
   firestoreDatabaseId: "ai-studio-campusconnectsma-270c62e1-26aa-400f-b6b8-25f830ae4461"
 };
 
-const firebaseConfig = firebaseConfigData || defaultConfig;
+const firebaseConfig = {
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || firebaseConfigData?.apiKey || defaultConfig.apiKey,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || firebaseConfigData?.authDomain || defaultConfig.authDomain,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || firebaseConfigData?.projectId || defaultConfig.projectId,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || firebaseConfigData?.storageBucket || defaultConfig.storageBucket,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || firebaseConfigData?.messagingSenderId || defaultConfig.messagingSenderId,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || firebaseConfigData?.appId || defaultConfig.appId,
+  firestoreDatabaseId: import.meta.env.VITE_FIREBASE_DATABASE_ID || firebaseConfigData?.firestoreDatabaseId || defaultConfig.firestoreDatabaseId,
+};
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
@@ -22,3 +30,4 @@ export const auth = getAuth(app);
 export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId || '(default)');
 export const storage = getStorage(app);
 export default app;
+
