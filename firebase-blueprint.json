@@ -1,0 +1,147 @@
+{
+  "entities": {
+    "users": {
+      "fields": {
+        "uid": "string",
+        "email": "string",
+        "name": "string",
+        "role": "string",
+        "department": "string",
+        "rollNumber": "string",
+        "phone": "string",
+        "avatar": "string",
+        "semester": "string",
+        "skills": "array",
+        "linkedin": "string",
+        "github": "string",
+        "bio": "string",
+        "createdAt": "timestamp"
+      }
+    },
+    "attendance": {
+      "fields": {
+        "sessionId": "string",
+        "subject": "string",
+        "facultyId": "string",
+        "facultyName": "string",
+        "date": "string",
+        "records": "array",
+        "createdAt": "timestamp"
+      }
+    },
+    "assignments": {
+      "fields": {
+        "title": "string",
+        "description": "string",
+        "subject": "string",
+        "deadline": "string",
+        "maxMarks": "number",
+        "facultyId": "string",
+        "facultyName": "string",
+        "createdAt": "timestamp"
+      }
+    },
+    "submissions": {
+      "fields": {
+        "assignmentId": "string",
+        "studentId": "string",
+        "studentName": "string",
+        "studentRoll": "string",
+        "solutionText": "string",
+        "fileUrl": "string",
+        "githubUrl": "string",
+        "submittedAt": "string",
+        "status": "string",
+        "marks": "number",
+        "feedback": "string"
+      }
+    },
+    "events": {
+      "fields": {
+        "title": "string",
+        "description": "string",
+        "venue": "string",
+        "date": "string",
+        "time": "string",
+        "category": "string",
+        "deadline": "string",
+        "seats": "number",
+        "registeredCount": "number",
+        "speakers": "array",
+        "banner": "string",
+        "organizerId": "string"
+      }
+    },
+    "eventRegistrations": {
+      "fields": {
+        "eventId": "string",
+        "studentId": "string",
+        "studentName": "string",
+        "registeredAt": "timestamp",
+        "qrCodeData": "string"
+      }
+    },
+    "clubs": {
+      "fields": {
+        "name": "string",
+        "description": "string",
+        "category": "string",
+        "leadName": "string",
+        "banner": "string",
+        "membersCount": "number"
+      }
+    },
+    "clubMemberships": {
+      "fields": {
+        "clubId": "string",
+        "studentId": "string",
+        "studentName": "string",
+        "status": "string",
+        "appliedAt": "timestamp"
+      }
+    },
+    "placements": {
+      "fields": {
+        "company": "string",
+        "role": "string",
+        "description": "string",
+        "eligibility": "string",
+        "minCgpa": "number",
+        "skills": "array",
+        "ctc": "string",
+        "location": "string",
+        "deadline": "string"
+      }
+    },
+    "applications": {
+      "fields": {
+        "placementId": "string",
+        "studentId": "string",
+        "studentName": "string",
+        "status": "string",
+        "appliedAt": "string"
+      }
+    },
+    "announcements": {
+      "fields": {
+        "title": "string",
+        "description": "string",
+        "category": "string",
+        "priority": "string",
+        "audience": "string",
+        "authorName": "string",
+        "date": "string"
+      }
+    },
+    "notifications": {
+      "fields": {
+        "userId": "string",
+        "title": "string",
+        "message": "string",
+        "type": "string",
+        "read": "boolean",
+        "createdAt": "timestamp"
+      }
+    }
+  }
+}

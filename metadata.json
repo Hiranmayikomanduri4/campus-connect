@@ -1,0 +1,6 @@
+{
+  "name": "CampusConnect – Smart Campus Management Platform",
+  "description": "Centralized college management platform for students, faculty, coordinators, and administrators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
